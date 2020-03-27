@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+
+\geometry{letterpaper,  margin=1.3in}
+
+\title{Antecesores de la computación moderna}
+\author{William Fabián Cano Gómez}
+
+\date{27 de Marzo 2020}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\section{Introducción}
+
+Para esta actividad hablaré de dos de los antecesores de la computación moderna: El teorema de incompletitud de Gödel y La maquina de Turing.
+\newline 
+La elección de estos radicó, bajo mi punto de vista, en su gran importancia para \textbf{el cambio de paradigma} que supusieron; cambio de paradigma que ha llevado a la computación al punto en el que nos encontramos.
+
+\section{Antecesores}
+\begin{itemize}
+  \item El teorema de imcompletitud de Gödel.
+  \item La maquina de Turing.
+\end{itemize}
+
+\subsection {El teorema de imcompletitud de Gödel.}
+David Hilbert (1862-1943) tenía un sueño: Quería que las matemáticas fuesen formuladas bajo bases sólidas y completamente lógicas; para esto, necesitaba demostrar: 1. Toda la matemática puede derivarse de un sistema de finitos axiomas \textbf{escogidos correctamente}. 2. Que se pruebe que dicho sistema axiomático sea consistente.
+\newline
+Kurt Gödel (1906-1978) mató ese sueño cuando, en 1931, pública sus Teoremas de incompletitud.
+\newline
+El primer teorema ( Cualquier teoría aritmética recursiva que sea consistente es incompleta.) demostró que toda teoría aritmética que se fundamente en las condiciones del teorema tendrá enunciados que de los que \textbf{no se podrá demostrar su veracidad}.
+\newline
+El segundo teorema ( En toda teoría aritmética recursiva consistente, llamémosla T, la fórmula consistente T no es un teorema.) trae como consecuencias que una teoría formal de la forma T esté incompleta, dado que se necesitan teorías fuera de T para demostrar T.
+\newline
+Empero a todo lo dicho, los teoremas de incompletitud de Gödel no desacreditaron las teorías matemáticas, pero demostraron que las bases que requería el sueño de Hilbert nunca podrían darse.
+\subsection {La maquina de Turing.}
+Nunca sabremos si Alan Turing (1912-1954) se imaginase el alcance que tomaría su estudio: Los números computables, con una aplicación al Entscheidungproblem. Pero sin duda alguna le debemos mucho. La máquina que Turing expone en este articulo es la base para las computadoras actuales. Esta máquina consistía en una cinta tan larga como se quisiese, que estaría dividida en secciones en las que se escribirían símbolos; tendría una cabeza que podría leer y escribir los símbolos en la cinta y moverse de derecha a izquierda; por último tendría un programa que le diría a la cabeza qué es lo que tiene que hacer. Algo tan simple como esto cambió el mundo. Turing demuestra en su articulo como esta máquina sería capaz de hacer \textbf{las mismas tareas} que cualquier otro tipo de máquinas.
+\newline
+La versión en computadores de la máquina de Turing sería: La memoria es la cinta y el microprocesador haría las veces de cabeza y ejecutaría el programa.
+\newline
+Un problema irresoluble como consecuencia de la máquina de Turing sería este:
+\newline
+"¿ Es posible construir un algoritmo que, dada una maquina de Turing cualquiera M1, nos diga si esa máquina acabará por pararse al leer cierta cinta, o bien si seguirá funcionando indefinidamente, moviéndose siempre hacia la derecha, siempre hacia la izquierda, o realizando ciclos más o menos complejos?"\cite{Alfonseca}
+\newline
+La respuesta fue tajante: No era posible. Esto traía como consecuencia directa que no se pudiese saber si algunos problemas recursivos podrían llegar a solucionarse en tiempos tiempos sensatos, o tan siquiera resolverse.
+\section {Conclusiones}
+\begin{thebibliography}{1}
+\bibitem{Alfonseca} Alfonseca, M. (2000). La máquina de Turing. Números, Las matemáticas del siglo XX una mirada en 101 artículos
+\end{thebibliography}
+\end{document}
